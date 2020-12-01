@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.add_recipes.AddRecipesFragment"
+    android:orientation="vertical"
+    android:background="#ddd3ee">
+
+    <!--Name-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="35dp"
+            android:text="@string/name"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="15dp"/>
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="280dp"
+            android:layout_height="50dp" />
+    </LinearLayout>
+
+    <!--Category-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="35dp"
+            android:text="@string/category"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="15dp"/>
+        <EditText
+            android:id="@+id/editTextCategory"
+            android:layout_width="280dp"
+            android:layout_height="50dp" />
+    </LinearLayout>
+
+    <!--Ingredients-->
+    <LinearLayout
+        android:id="@+id/ingredientField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:text="@string/ingredients"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="15dp"/>
+        <EditText
+            android:id="@+id/editTextIngredients"
+            android:layout_width="280dp"
+            android:layout_height="200dp" />
+    </LinearLayout>
+
+    <!--Instructions-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:text="@string/instructions"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="15dp"/>
+        <EditText
+            android:id="@+id/editTextInstructions"
+            android:layout_width="280dp"
+            android:layout_height="350dp" />
+    </LinearLayout>
+
+    <!--Button-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/addRecipe"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/addRecipe"/>
+
+    </LinearLayout>
+
+</LinearLayout>

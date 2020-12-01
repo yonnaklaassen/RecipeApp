@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.recipeapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_my_recipes"
+        android:name="com.example.recipeapp.ui.my_recipes.MyRecipesFragment"
+        android:label="@string/menu_my_recipes"
+        tools:layout="@layout/fragment_my_recipes" />
+
+    <fragment
+        android:id="@+id/nav_find_recipes"
+        android:name="com.example.recipeapp.ui.find_recipes.FindRecipesFragment"
+        android:label="@string/menu_find_recipes"
+        tools:layout="@layout/fragment_find_recipes"/>
+
+
+    <fragment
+        android:id="@+id/nav_add_recipes"
+        android:name="com.example.recipeapp.ui.add_recipes.AddRecipesFragment"
+        android:label="@string/menu_add_recipes"
+        tools:layout="@layout/fragment_add_recipes" />
+
+    <fragment
+        android:id="@+id/nav_recipe_item"
+        android:name="com.example.recipeapp.ui.my_recipes.recipe_item.RecipeItemFragment_mr"
+        android:label="@string/menu_recipe_item"
+        tools:layout="@layout/fragment_recipe_item_my_recipes" />
+
+
+</navigation>

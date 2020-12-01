@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_outline_house_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_add_recipes"
+            android:icon="@drawable/ic_outline_note_add_24"
+            android:title="@string/menu_add_recipes" />
+        <item
+            android:id="@+id/nav_my_recipes"
+            android:icon="@drawable/ic_outline_note_24"
+            android:title="@string/menu_my_recipes" />
+        <item
+            android:id="@+id/nav_find_recipes"
+            android:icon="@drawable/ic_outline_search_24"
+            android:title="@string/menu_find_recipes" />
+
+    </group>
+</menu>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">RecipeApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">User</string>
+    <string name="nav_header_subtitle">user@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_logout">Log out</string>
+
+    //Menus
+    <string name="menu_home">Home</string>
+    <string name="menu_my_recipes">My Recipes</string>
+    <string name="menu_find_recipes">Find Recipes</string>
+    <string name="menu_saved_recipes">Saved Recipes</string>
+    <string name="menu_add_recipes">Add Recipes</string>
+    <string name="menu_recipe_item">Detailed recipe</string>
+
+    //find recipe fragment
+    <string name="searchMeal">Search for meal...</string>
+    <string name="search">Search</string>
+
+
+    //add recipe fragment
+    <string name="name">Name</string>
+    <string name="category">Category</string>
+    <string name="instructions">Instructions</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="addRecipe">Add</string>
+
+    //Home
+    <string name="about">- Find recipes</string>
+    <string name="about2">- Add recipes</string>
+
+    //Login
+    <string name="signIn">Sign in!</string>
+
+    <string name="Delete">Delete</string>
+
+</resources>
